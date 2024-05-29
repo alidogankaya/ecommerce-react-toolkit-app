@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Pacifico&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+body {
+    @apply min-h-screen bg-gradient-to-b from-blue-50 to-blue-100;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.paginate {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.paginate li {
+
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    padding: 2px;
+    border-radius: 25px;
+}
+
+.toast-position {
+    top: 8rem !important;
+  }
